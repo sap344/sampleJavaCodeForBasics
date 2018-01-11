@@ -10,16 +10,18 @@ public class MyPets {
 
    Animal myAnimal2 = new Animal("animal_2");
 
-   Dog myDog1 = new Dog();
-   Animal myDog2 = new Dog();
-   
+   Dog myDog1 = new Dog("dawg");
+  // Animal myDog2 = new Dog();
+   System.out.println("name of dog:" + myDog1.getName());
    ///////////
-   myDog1.setName("dawg");
+   myDog1.setName("Dawg");
    System.out.println("name of dog:" + myDog1.getName());
    myDog1.sleep();
-   
-   //myDog2.bark();
-   
+   myDog1.bark();
+   ///////////////
+   Cat myCat1= new Cat("Cawt");
+   myCat1.meow();
+    
    ///////////////////////////////
 
    myAnimal2.wakeUp();

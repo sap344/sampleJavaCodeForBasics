@@ -20,8 +20,8 @@ public class Animal {
    }
 
    // properties
-   public String name;
-   public int numberOfLegs;
+   private String name;
+   private int numberOfLegs;
    public int numberOfEyes;
    public boolean isAsleep;
 
@@ -41,6 +41,14 @@ public class Animal {
    }
 
    // getters and setters
+   public String getName() {
+    return this.name;
+   }
+   
+   public void setName(String n) {
+    this.name = n;
+   }
+
    public int getNumOfLegs() {
      System.out.println(name + ":getting number of legs value");
      return numberOfLegs;
